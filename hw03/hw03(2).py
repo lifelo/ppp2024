@@ -1,0 +1,6 @@
+height = int(input("키를 입력하세요:"))
+weight = int(input("몸무게를 입력하세요:"))
+bmi = weight / (height ** 2)
+print("키가 {}cm, 몸무게가 {}kg이면, bmi는 {}입니다.".format(height, weight, bmi))
+print(bmi)
+round(bmi, 3)
